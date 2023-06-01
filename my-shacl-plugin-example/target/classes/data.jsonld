@@ -1,0 +1,18 @@
+{
+    "@context": {
+        "ex": "http://example.com/ns#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "name": {
+            "@id": "ex:name",
+            "@type": "xsd:string"
+        },
+        "age": {
+            "@id": "ex:age",
+            "@type": "xsd:integer"
+        }
+    },
+    "@id": "ex:JohnDoe",
+    "@type": "ex:Person",
+    "name": "John Doe",
+    "age": -1
+}
